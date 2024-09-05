@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Replace with your actual index number
 index_number = "210279A"
 
 # Load the image
