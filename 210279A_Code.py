@@ -58,7 +58,7 @@ increased_brightness_image = increase_brightness(gray_image)
 
 
 # Reduce Contrast (Gray levels between 125 and 175)
-def reduce_contrast(image, min_gray=10, max_gray=15):
+def reduce_contrast(image, min_gray=125, max_gray=175):
     height, width = image.shape  # assuming image is a grayscale 2D array
     reduced_contrast_image = np.zeros((height, width), dtype=np.uint8)
 
